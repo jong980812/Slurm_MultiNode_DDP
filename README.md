@@ -18,7 +18,7 @@ Release:       20.04
 <br>
 <br>
 
-## NCCL Setting
+## **NCCL Setting**
 ### Error Issues 
 >NCCL WARN Bootstrap : no socket interface found
 ```
