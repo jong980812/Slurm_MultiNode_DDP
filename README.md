@@ -3,6 +3,8 @@ This helps you to submit job with multinode &amp; multgpu in Slurm in Torchrun
 ********
 ********
 
+## Checking my NODE can Socket
+[Check_socket.md](Check_socket.md)
 
 ## Enviroment
 #### Slurm 
@@ -59,8 +61,6 @@ It's better to choose Etherne tInterface name that have **inet6, broadcast**
 <br>
 
 
-### Checking my NODE can Socket
-[Check_socket.md](Check_socket.md)
 
 ## **References**
 1. ### [Nvidia Environment Variables Official Docs](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/env.html)
