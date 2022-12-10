@@ -60,9 +60,9 @@ It's better to choose Etherne tInterface name that have **inet6, broadcast**
 
 
 ### Checking my NODE can Socket
-[Check_socket.md](https://github.com/jong980812/Slurm_MultiNode/blob/master/Check_socket/Check_socek.md)
+[Check_socket.md](Check_socket.md)
 
 ## **References**
 1. ### [Nvidia Environment Variables Official Docs](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/env.html)
 ###
-1. ### [Linux Commands about Net interface](Check_socket.md)
+2. ### [Linux Commands about Net interface](https://www.cyberciti.biz/faq/linux-list-network-interfaces-names-command/)
