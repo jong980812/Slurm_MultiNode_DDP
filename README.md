@@ -65,4 +65,4 @@ It's better to choose Etherne tInterface name that have **inet6, broadcast**
 ## **References**
 1. ### [Nvidia Environment Variables Official Docs](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/env.html)
 ###
-2. ### [Linux Commands about Net interface](https://www.cyberciti.biz/faq/linux-list-network-interfaces-names-command/)
+1. ### [Linux Commands about Net interface](Check_socket.md)
