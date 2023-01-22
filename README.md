@@ -1,11 +1,16 @@
 # Slurm_MultiNode
-This helps you to submit job with multinode &amp; multgpu in Slurm in Torchrun 
+This helps you to submit job with multinode &amp; multgpu in Slurm in Torchrun<br>
+The Slurm has multinode function that can help you to submit multi job by using like "-N 2","ntasks per job.." 
+But, this repo is made for you that cannot use slurm default funtion  
 ********
-********
+
+<br>
 
 ## Checking my NODE can Socket
-[Check_socket.md](Check_socket.md)
+[Check_socket.md](Check_socket/Check_socket.md)
 
+## Multinode slurm job
+[Slurm_script.md](Slurm_script/slurm_script.md)
 ## Enviroment
 #### Slurm 
 Version: 21.08.8-2
@@ -53,8 +58,8 @@ enp28s0f1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         TX packets 16585505941  bytes 24290665224417 (24.2 TB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
-It's better to choose Etherne tInterface name that have **inet6, broadcast**
-
+## It's best to choose Etherne Interface name that have **inet6, broadcast**
+### This Socket name is used later , check your Interface name
 ****
 
 <br>
