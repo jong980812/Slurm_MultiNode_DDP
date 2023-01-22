@@ -7,10 +7,10 @@ But, this repo is made for you that cannot use slurm default funtion
 <br>
 
 ## Checking my NODE can Socket
-[Check_socket.md](Check_socket/Check_socket.md)
+[Check_socket.md](Check_socket/README.md)
 
 ## Multinode slurm job
-[Slurm_script.md](Slurm_script/slurm_script.md)
+[Slurm_script.md](Slurm_script/README.md)
 ## Enviroment
 #### Slurm 
 Version: 21.08.8-2
