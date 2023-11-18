@@ -7,7 +7,7 @@ import torch.distributed as dist
 LOCAL_RANK = int(os.environ['LOCAL_RANK'])
 WORLD_SIZE = int(os.environ['WORLD_SIZE'])
 WORLD_RANK = int(os.environ['RANK'])
-
+print(f"local: {LOCAL_RANK}\nworld: {WORLD_RANK}")
 def run(backend):
     tensor = torch.zeros(1)#Temp Tensor
     
