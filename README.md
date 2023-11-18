@@ -76,7 +76,8 @@ enp28s0f1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 This repository facilitates job submission with multi-node and multi-GPU configurations in Slurm using Torchrun.
 
 # Overview
-This repository provides scripts that are helpful when using multinode with PyTorch DDP module in Slurm. It consists of master.sh and original.sh, where master.sh submits original.sh for each node. The example involves using a total of 32 GPUs across 4 nodes, each with 8 GPUs. The scripts offer color coding for sanity checks and also include a memo feature.
+This repository provides scripts that are helpful when using multinode with PyTorch DDP module in Slurm. It consists of master.sh and original.sh, where master.sh submits original.sh for each node. The example involves using a total of 32 GPUs across 4 nodes, each with 8 GPUs. The scripts offer color coding for sanity checks and also include a memo feature.<br>
+<br>
 <img src="./figure/thumbnail.png" alt="대체 텍스트" width="600">
 
 
